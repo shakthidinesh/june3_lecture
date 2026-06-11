@@ -1,0 +1,99 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    
+    background-image: url('./background-/pexels-goumbik-616360.jpg') ;
+    background-attachment: fixed;
+    background-size:cover ;
+}
+header{
+    height: 70px;
+    width:auto;
+    background-color:black;
+    border:;
+    border-radius: 5px;
+    display: flex;
+   
+    
+}
+.header-wrapper{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    width:80%;
+    margin: auto;
+   
+    border-color: 1px solid black;
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container > nav{
+    height: 70px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.container > nav> a{
+   color: white;
+   font-size:large;
+   font-weight: bold;
+   text-decoration: none;
+   
+}
+/* menu */
+.menu{
+   text-align: center;
+  
+    
+}
+.menu-head>h1{
+     margin-bottom: 30px;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    
+}
+.image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.image-container>div{
+    height: 680px;
+    width: 600px;
+    color:white;
+    background-color: #192734;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+.image-container> div>img{
+    border-radius: 20px;
+    height:500px;
+    width:597px;
+}
+/* move hover */
+.image-container>div:hover{
+    background-color: black;
+    box-shadow: 20px 20px grey;
+    border:1px solid white;
+    transition: all 1s;
+    transform:translateY(-10px);
+}
+.image-container> div>img:hover{
+    border: 1px 1px 0px 1px solid white;
+
+}
+div>img:hover{
+    border-bottom:0px solid white;
+}
+.price{
+    color: yellow;
+    font-weight: 30px;
+}
