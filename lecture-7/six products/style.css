@@ -35,8 +35,21 @@
     text-size:60px;
     color: yellow;
 }
+.card>.container>div>button{
+    height: 40px;
+    width:100px;
+    border-radius:50px;
+    background-color:goldenrod
+
+}
 /*Mouse hover*/
 .card>.container>div:hover{
     box-shadow: 10px 10px 20px black;
     transform: translateY(10px);
+}
+.card>.container>div>button:hover{
+    transform:translatey(-5px);
+    font-weight: bold;
+    color: white;
+    box-shadow:5px 5px 10px   black;
 }
